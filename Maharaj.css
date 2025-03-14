@@ -1,0 +1,37 @@
+#title, #description{
+  text-align: center;
+  color: #D3A745;
+}
+
+body{
+  padding-left: 5%;
+  padding-right: 5%;
+  background-image: url(https://t3.ftcdn.net/jpg/06/01/78/10/360_F_601781013_US7MdHPFYWMxIhdESEaOi6wP7rQ9jI5R.jpg) ;
+  /* background: linear-gradient(90deg, hsl(228, 57%, 15%),hsl(228,56%,30%), hsl(228,56%,15%)); */
+}
+
+.box {
+  margin: auto;
+  background: linear-gradient(90deg, hsl(228, 57%, 15%),hsl(228,56%,30%), hsl(228,56%,15%));
+  border: 1px solid #D3A745;
+  color: #D3A745;
+  padding: 15px;
+}
+
+div{
+  margin: 10px;
+  margin-bottom: 15px;
+}
+
+input, textarea { 
+  background-color: hsl(228, 57%, 12%);
+  color: #D3A745;
+  /*font-family: ;*/
+}
+
+#submit {
+  text-align: center;
+  padding: 5px;
+  background: linear-gradient(90deg, rgb(144, 102, 52), hsl(42,64%,68%), rgb(144, 102, 52));
+  color: black;
+}
