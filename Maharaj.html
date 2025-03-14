@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+  <head>
+    <title>Shaahi Sandesh</title>
+
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width= device-width initial-scale=1.0'>
+    <link rel='stylesheet' href='styles.css'>
+  </head>
+
+
+  <body>
+
+    <h1 id='title'>Maharaj SJ's Survey Form</h1>
+    <p id='description'>Maharaj ka aadesh hai ki Aap yeh Survey Form fill-up karein.</p>
+
+  <div class='box'>
+    <form id='survey-form'>
+
+      <div><label for='name'>Aapka Naam ~
+        <input id='name' type='text' required placeholder='Enter your name'></label></div>
+      
+      <div><label for='email'>Aapka Email ~ <input id='email' type='email' required placeholder='Enter your e-mail addrress'></input></label></div>
+      
+      <div><label for='age'>Aapki Aayu ~<input id='age' type='number' max=120 min=18 placeholder='Age'></input></label></div>
+      
+      <div><label for='dropdown'>Iss rajya mei aapki haisiyat?
+        <select id='dropdown'>
+          <option value=''>(Mere rajya mein aapka sthaan?)</option>
+          <option value='1'>Sadharan Nagrik</option>
+          <option value='2'>Mantri</option>
+          <option value='3'>Senapati</option>
+          <option value='4'>Humaari Pookie Maharani ♡</option>
+        </select>
+      </label></div>
+      
+      <div><label for='name'>Kya maharaj aapko pasand hai? (Haan te Haan):
+        <input type='radio' name='name' value='yes' checked>Ji Maharaj, we love you!
+      <input type='radio' name='name' value='maybe'>Not sure! (matlab Haan)
+      <input type='radio' name='name' value='no'>Nahi Maharaj, maaf karein! <em>(Choosing this option might lead to unforeseen circumstances...)</em>
+      </label></div>
+      
+      <hr style="height:0.5px; border-width:0;color:#D3A745;background-color: #D3A745">
+      
+      <div>
+      <label for='comments'>Kya aap Maharaj ke liye kuchh sandesh dena chaahte hain?
+        <textarea id='comments' placeholder='Maharaj aap bahot achhe hai...'></textarea>
+      </label>
+      </div>
+    </form>
+  </div>
+
+  <input id='submit' type="submit" value="Jawaab daakhil karein!" />
+  
+  </body>
+</html>
